@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Churn Prediction</title>
+</head>
+<body style= "background-color:  rgb(178, 235, 172);">
+    <h1>Customer Churn Prediction</h1>
+    
+    <form method="get" action="/Customer_churn" >
+        <label><h3>CreditScore:</h3></label>
+        <input type="text" name = "CreditScore">
+        </select>
+
+        <br>
+        <br>
+
+        <label><h3>Age:</h3></label>
+        <input type="text" name = "Age">
+        </select>
+
+        <br>
+        <br>
+
+        <label><h3>Tenure:</h3></label>
+        <input type="text" name = "Tenure">
+        </select>
+
+        <br>
+        <br>
+
+        <label><h3>Balance:</h3></label>
+        <input type="text" name = "Balance">
+        </select>
+
+        <br>
+        <br>
+
+        <label><h3>NumOfProducts:</h3></label>
+        <input type="text" name = "NumOfProducts">
+        </select>
+
+        <br>
+        <br>
+
+        <label><h3>HasCrCard:</h3></label>
+        <input type="text" name = "HasCrCard">
+        </select>
+
+        <br> 
+        <br>
+
+        <label><h3>IsActiveMember:</h3></label>
+        <input type="text" name = "IsActiveMember">
+        </select>
+
+        <br>
+        <br>
+
+        <label><h3>EstimatedSalary:</h3></label>
+        <input type="text" name = "EstimatedSalary">
+        </select>
+
+        <br>
+        <br>
+
+        <label><h3>Gender:</h3></label>
+        <select name = "GenderVal">
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+        </select>
+     
+
+        <br>
+        <br>
+
+        <label><h3>Geography:</h3></label>
+        <select name = "Geography">
+            <option value="France">France</option>
+            <option value="Germany">Germany</option>
+            <option value="Spain">Spain</option>
+        </select>
+
+        <br>
+        <br>
+
+        <input type = "submit" value = "SUMBIT">
+
+        <br>
+
+        <p><h2>({result <b> {{prediction}}</b>}) </h2>
+        </p>
+
+
+    </form> 
+
+</body>
+</html>
